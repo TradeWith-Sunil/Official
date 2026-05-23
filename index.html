@@ -340,10 +340,13 @@ src="https://www.facebook.com/tr?id=991036226734814&ev=PageView&noscript=1"
         });
     </script>
 
-     <script>
-        function customEvent() {
-            fbq('track', 'Subscribe');
-        }
-    </script>
+<script>
+    function customEvent() {
+        fbq('track', 'Subscribe', {
+            value: 0,
+            currency: 'INR'
+        });
+    }
+</script>
 
 </body></html>
